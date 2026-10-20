@@ -17,7 +17,3 @@ void main() => ejercicio3.main();
 Para abrir otro ejercicio, cambia **el número en las dos líneas** (`ej3.dart` y `ejercicio3`) por el que corresponda. Después, desde la raíz del proyecto, ejecuta `flutter run` o usa el botón de ejecución del editor.
 
 También puedes lanzar uno sin modificar `main.dart`, por ejemplo con `flutter run -t lib/ej3.dart`. Cada `ejN.dart` tiene su propia función `main()`.
-
-## Archivos del repositorio
-
-El `.gitignore` deja fuera las carpetas generadas al compilar (`build/`, `.dart_tool/` y similares) y la configuración local del editor. También excluye `otros/PROJECT_HANDOFF.md`, `otros/agents.md`, el PDF del enunciado y los archivos temporales de Word. Los archivos de `lib/`, `test/`, las carpetas de plataforma de Flutter y el informe Word sí pueden añadirse al repositorio.
