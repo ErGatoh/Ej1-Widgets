@@ -39,7 +39,7 @@ class PantallaPresentacion extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                // Prueba del reborde rayado: se hizo, pero visualmente quedaba mal.
+                // Prueba del reborde rayado, pero visualmente quedaba mal.
                 /*
                 CustomPaint(
                   painter: BordeRayado(),
